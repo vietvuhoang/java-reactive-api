@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS devices (
 );
 
 CREATE INDEX device_production_code_index ON devices(production_code);
-CREATE INDEX device_model_index ON devices(model);
+CREATE INDEX device_serial_number_index ON devices(serial_number);
 CREATE INDEX device_device_type_index ON devices(device_type);
 
 CREATE TABLE IF NOT EXISTS device_events (
