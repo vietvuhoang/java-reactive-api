@@ -1,0 +1,3 @@
+create database iot_devices;
+create user iot with encrypted password 'qwerty12';
+grant all privileges on database iot_devices to iot;
